@@ -1,0 +1,12 @@
+gui:
+  title: "&bCosmoRewards"
+  cooldown: "&cYou can't claim this reward for %time%"
+
+messages:
+  no_console: "&cYou need to be a player to use this command"
+  claimed_reward: "&aYou claimed reward %reward%"
+  cannot_claim: "&cYou can't claim this reward"
+
+claims:
+  cooldown: 86400 # The time for the player to be able to claim another reward, default: 1 day.
+  max: 172800 # The time to reset a player's streak if they don't claim a reward, default: 2 days.

@@ -1,0 +1,9 @@
+name: CosmoDailyRewards
+version: '${project.version}'
+main: me.levitate.cosmodailyrewards.CosmoDailyRewards
+api-version: 1.8.8
+authors: [ Levitate ]
+
+commands:
+  dailyrewards:
+    aliases: [dailyreward, daily, dr]
